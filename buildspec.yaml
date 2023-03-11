@@ -9,4 +9,4 @@ phases:
   post_build:
     commands:
       - sam local invoke HelloWorldFunction
-      - sam deploy --stack-name sam-lambda-container-devops --force-upload
+      - sam deploy --stack-name sam-lambda-container-devops
